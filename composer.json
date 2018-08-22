@@ -1,0 +1,8 @@
+{
+    "name": "trezo/youtube",
+    "type": "magento-module",
+    "description": "Magento Youtube Widget Module",
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
