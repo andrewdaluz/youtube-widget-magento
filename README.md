@@ -3,15 +3,16 @@
 This README describes technical issues to install or work with Trezo Youtube Module.
 
 ### How to install with composer repository magento ###
-
-* composer config repositories.trezo-youtube git git@github.com:andrewdaluz/youtube-widget-magento.git
-* composer require trezo/youtube 1.0.0
+```
+composer config repositories.trezo-youtube git git@github.com:andrewdaluz/youtube-widget-magento.git
+composer require trezo/youtube 1.0.0
+```
 
 ### How to install with modman ###
-
-* modgit init
-* modgit clone trezo-youtube git@github.com:andrewdaluz/youtube-widget-magento.git
-
+```
+modgit init
+modgit clone trezo-youtube git@github.com:andrewdaluz/youtube-widget-magento.git
+```
 ## Configuration ##
 
 To use this widget you can configure it on admin -> CMS -> Widget and create your widget configuration with your video code.
