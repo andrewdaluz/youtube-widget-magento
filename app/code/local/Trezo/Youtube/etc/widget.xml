@@ -1,0 +1,28 @@
+<widgets>
+  <youtube type="trezo_youtube/youtube">
+    <name>Youtube Frame</name>
+    <description type="desc">Shows youtube video</description>
+    <parameters>
+            <height>
+                <label>Height</label>
+                <visible>1</visible>
+                <required>0</required>
+                <type>text</type>
+                <value>300</value>
+            </height>
+            <code>
+                <label>Code</label>
+                <visible>1</visible>
+                <required>0</required>
+                <type>text</type>
+                <value>300</value>
+            </code>
+            <width>
+                <label>Width</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </width>
+   </parameters>
+  </youtube>
+</widgets>

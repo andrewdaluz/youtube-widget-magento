@@ -1,0 +1,15 @@
+{
+    "name": "Trezo/Youtube",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Module base for simple widget to include a youtube frame",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"André Felipe Teixeira da Luz",
+            "email":"andrew.daluz@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Trezo_Youtube>
+            <version>1.0.0</version>
+        </Trezo_Youtube>
+    </modules>
+    <global>
+        <models>
+            <trezo_youtube>
+                <class>Trezo_Youtube_Model</class>
+                <resourceModel>trezo_youtube_mysql4</resourceModel>
+            </trezo_youtube>
+        </models>
+        <helpers>
+            <trezo_youtube>
+                <class>Trezo_Youtube_Helper</class>
+            </trezo_youtube>
+        </helpers>
+        <blocks>
+            <trezo_youtube>
+                <class>Trezo_Youtube_Block</class>
+            </trezo_youtube>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <trezo_youtube>
+                <use>standard</use>
+                <args>
+                    <module>Trezo_Youtube</module>
+                    <frontName>trezo_youtube</frontName>
+                </args>
+            </trezo_youtube>
+        </routers>
+    </frontend>
+</config>
